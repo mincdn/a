@@ -1,0 +1,40 @@
+/*系统 公用CSS样式*/
+
+/* 商品页 购买记录 */
+#buyer_info {font-size:12px;}
+#buyer_info .table-deal-record{font-size:12px;line-height:16px;}#buyer_info .table-deal-record a{color:#069;}
+#buyer_info .table-deal-record em,#buyer_info .table-deal-record caption{font-weight:bold;color:#F50;font-style:normal;}
+#buyer_info .table-deal-record th,#buyer_info .table-auction-record th{height:30px;border-bottom:2px solid #dde4ea;background-color:#f6f9fc;font-weight:bold;text-align:center;}
+#buyer_info .table-deal-record td,#buyer_info .table-auction-record td{padding:5px 3px;border-bottom:1px solid #eef1f4;text-align:center;}
+#buyer_info .table-deal-record .cell-align-l,#buyer_info .table-auction-record .cell-align-l{text-align:left;}
+#buyer_info .table-deal-record .cell-align-c,#buyer_info .table-auction-record .cell-align-c{text-align:center;}
+#buyer_info .table-deal-record{margin-bottom:10px;width:100%;}
+#buyer_info .table-deal-record tr.odd,#buyer_info .table-auction-record tr.odd{background-color:#f6f9ff;}
+#buyer_info .table-deal-record caption{padding:5px 0;}#buyer_info .col-buyer{width:120px;}#buyer_info .col-goods{width:350px;}#buyer_info .col-chargetime{width:90px;}
+#buyer_info .pagination{font-size:14px;font-weight:bold;text-align:center;padding-bottom:10px;border-bottom:1px #EEE solid;}#buyer_info .view-all{display:none;}
+#buyer_info .page-bottom a { color:#369; }
+
+/* 商品页 购买记录 普通店铺改版 5月 */
+#buyer_info .tb-list{table-layout:fixed;width:100%;color:#404040;font-size:12px;}
+#buyer_info .tb-list caption{display:none;}
+#buyer_info .tb-col-buyer{width:24%;}
+#buyer_info .tb-col-price{width:14%;}
+#buyer_info .tb-col-amount{width:10%;}
+#buyer_info .tb-col-time{width:24%;}
+#buyer_info .tb-sku{width:28%;}
+#buyer_info .tb-list th{padding-bottom:5px;text-align:left;border-bottom:2px solid #f0f0f0;}
+#buyer_info .tb-list td{padding:10px 5px 10px 0;border-bottom:1px dashed #f2f0f0;}
+#buyer_info .tb-list .tb-buyer{padding-left:15px;}
+#buyer_info .tb-sellnick{display:block;margin-bottom:3px;}
+#buyer_info .tb-buyer img{margin-right:5px;}
+#buyer_info td.tb-price{font-weight:bold;color:#f50;}
+#buyer_info .tb-sku-wrap{position:relative;overflow:hidden;}
+#buyer_info .tb-sku-none{height:20px;}
+#buyer_info .tb-sku-wrap p{display:inline-block;margin-right:10px;margin-right:13px\9;overflow:hidden;*display:inline;*zoom:1;word-wrap:break-word;}
+#buyer_info .tb-change-info td{display:none;}
+#buyer_info .tb-view{display:none;position:absolute;top:0;right:0;width:48px;height:100%;_height:200px;background:#fffcf3;}
+#buyer_info .tb-view i{position:absolute;top:4px;left:50%;width:14px;height:14px;margin-left:-7px;overflow:hidden;white-space:nowrap;text-indent:-9999px;cursor:pointer;background-position:0 -77px;}
+#buyer_info tr:hover .tb-view,#buyer_info tr.tb-hover .tb-view{display:block;}
+#buyer_info .tb-page-bottom {text-align:center;font-size:14px;margin-top:10px;}
+
+/* 商品页 评价 */
